@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .navbar{
+                overflow:hidden;
+                background-color: beige;
+                position:fixed;
+                top: 0;
+                width:100%;
+                padding-left: 64%;
+                padding-top: 2px;
+                padding-bottom: 2px;
+            }
+            .navbar a{
+                float: left;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+            .navbar a:hover{
+                background-color: rgb(189, 181, 189);
+                color: black;
+            }
+            .navbar a:active{
+                background-color: rgb(241,181,181);
+                color: white;
+            }
+        </style>
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+         <div class="navbar">
+            <a href="#address">Home</a>
+            <a href="#About_me">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#CV">Cv</a>
+            <a href="#form">Contact</a>
+         </div>
+         
+         <div id="address">
+            <h1>Ilham Mohammed Sa'id</h1>
+            <address>Alhaji Ibrahim Musa road, Malali new extension</address>
+         </div>
+        
+         <div id="About_me">
+             <div class="about_left">
+            <img src="images/image1.jpg" alt="" width="340px;" height="649px;">
+         </div>    
+         <div class="vertical"></div>  
+          <div class="about_right">
+        <h1 style="text-align:center;">About me</h1>
+                <p>My name is Ilham Mohammed Sa'id. I was born on the 26th of
+                     August in Abuja, Nigeria.I am from Birnin Kebbi local
+                      government area of kebbi state. I am a graduate of Computer
+                       science from Al-qalam university, Katsina.<br>I am an
+                        organized and dependable candidate successful at managing
+                         multiple priorities with a positive attitude. I have the
+                          willingness to take on added responsibilities to meet 
+                          team goals.<br>I am able seek and maintain full-time
+                           position that offers professional challenges utilizing
+                            interpersonal skills, excellent time management and
+                             problem-solving skills.<br>I am a results-driven
+                              Computer science professional with good technical
+                               skills, firm grasp of business needs and understanding
+                                of user requirements gathering. I also possess the
+                                 ability to assesses risks, troubleshoots problems and
+                                  conducts tests. I have excellent communication and
+                                   planning abilities. 
+                </p>
+         </div>
+         </div>
+
+
+         <!-- Skills Section -->
+         <div id="Skills">
+            <h2 style="margin-top:0;">IT Skills</h2>
+            <p>This section is a brief about my IT Skills</p>
+         <dl>
+         <dt><b>Software Development Skills</b></dt>
+         <dd>HTML, CSS, Javascript, PHP and Mysql</dd>
+         <dd>Web Development Framework (ul, css, Bootstrap)</dd>
+         <dd>Content Management System (Joomla, Wix, Wordpess)</dd><br>
+         <dt><b>Office Application and Graphic Design</b></dt>
+         <dd>Microsoft Office Word</dd>
+         <dd>Presentation Software (Powerpoint)</dd>
+         <dd>Spreadsheet Application (Excel and Access)</dd>
+         <dd>Graphic Design Application (Photoshop, Coreldraw, Paint)</dd>
+        </dl>
+    </div>
+
+    <!-- CV Section-->
+    <div id="CV">
+        <h2 style="margin-top:0;">Working Experience</h2>
+        <p>This section is a brief about my working experience</p>
+        <ul>
+            <li>Bank Of Industry - Customer Care Attendant</li>
+            <li>Kaduna State Polytechnic - IT Attendant</li>
+        </ul>
+        <h2>Qualifications Obtained</h2>
+            <p>A brief about the qualifications i have obtained</p>
+            <ul>
+                <li>Bsc. Computer Science - Alqalam University Katsina</li>
+                <li>hdsgsfts</li>
+            </ul>
+            <h2>Hobbies</h2>
+            <p>Here are some of my hobbies</p>
+            <ul>
+                <li>Traveling</li>
+                <li>Cooking</li>
+                <li>Swimming</li>
+                <li>Watching</li>
+                <li>Exploring</li>
+            </ul>
+    </div>
+
+    <!-- Contact Section-->
+    <div id="form">
+        <h2 style="margin-top:0;">Contact Me Here</h2>
+    <form action="">
+        <label for="firstname">First Name:</label><br>
+        <input type="text"><br><br>
+        <label for="lastname">Last Name:</label><br>
+        <input type="text"><br><br>
+        <label for="email">Email Address:</label><br>
+        <input type="text"><br><br>
+        <label for="subject">Subject:</label><br>
+        <input type="textarea"><br><br>
+        <input type="submit" value="Message me">
+    </form>
+    </div>
+    
+    </body>
+</html>

@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(218, 193, 218);
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+/* Address Section */
+#address{
+    padding-top: 40px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 0;
+}
+
+#About_me{
+    width:80%;
+    background-color: rgb(241, 221, 241);
+    height: auto;
+    margin:0 10% 0 10% ;
+    line-height: 2rem;
+    padding: 60px 0 50px 15px;
+}
+.about_left{
+    width:30%;
+    float:left;  
+    padding: 0 120px 0 10px;
+}
+.about_right{
+   width: 50%;
+   display: inline-block;
+   line-height: 2rem;
+   padding: 0 5px 20px 5px;
+   border-left: solid 1px black;
+}
+#Skills{
+    width:80%;
+    background-color: rgb(189, 181, 189);
+    height: auto;
+    margin:0 10% 0 10% ;
+    line-height: 2rem;
+    padding: 80px 0 50px 15px;
+}
+#CV{
+    width:80%;
+    background-color: rgb(241, 221, 241);
+    height: auto;
+    margin:0 10% 0 10%;
+    line-height: 2rem;
+    padding: 80px 0 50px 15px;
+}
+#form{
+    width:80%;
+    background-color: rgb(211, 202, 211);
+    height: auto;
+    margin:0 10% 0 10%;
+    line-height: 2rem;
+    padding: 80px 0 50px 15px;
+}
+/* .vertical{
+    border-left: 6px solid black;
+    height: 600px;
+    position: absolute;
+    left: 47%;
+    width:200px ;
+    padding-top: 20px; */
+    
+}
